@@ -10,6 +10,10 @@ Current features of the application:
 ## Demo
 https://github.com/AdamPomorski/FoodAssistant/assets/73637115/b3052543-30c9-4984-8a68-4e8c71b105c2
 
+## How to use it
+
+In file application\app\src\main\java\com\foodassistant\gpt\ChatGPTHelper in line 18 switch the "your-token" value into your own open ai api key.
+
 ## Problems with the solution
 - usage of the application is quite expensive: 0.002$ / 1K tokens when using chatgpt-3.5-turbo and 0.016$ / per image.
 - responses of ChatGPT might be sometimes incomplete in terms of the content
